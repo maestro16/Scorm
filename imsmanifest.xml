@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!-- This is a SCORM 1.2 manifest file, created 7/2/2017 10:08:43 AM by iliab using CourseLab 170305 -->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="MANIFEST-0607C659_BF93_4231_B565_AB16D0EE0A1B" version="1.0">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="1">
+<organization identifier="1">
+<title>Scorm</title>
+<item identifier="СДО-1" identifierref="RES1" parameters="?width=750&amp;height=530">
+<title>ВКР</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="RESCOURSEIMAGES" adlcp:scormtype="asset" type="webcontent">
+<file href="courseimages/1blank.gif"/>
+<file href="courseimages/cl-fonts.css"/>
+<file href="courseimages/cl.js"/>
+<file href="courseimages/click1.mp3"/>
+<file href="courseimages/click1.ogg"/>
+<file href="courseimages/click1.swf"/>
+<file href="courseimages/click2.mp3"/>
+<file href="courseimages/click2.ogg"/>
+<file href="courseimages/click2.swf"/>
+<file href="courseimages/click3.mp3"/>
+<file href="courseimages/click3.ogg"/>
+<file href="courseimages/click3.swf"/>
+<file href="courseimages/click4.mp3"/>
+<file href="courseimages/click4.ogg"/>
+<file href="courseimages/click4.swf"/>
+<file href="courseimages/courselab.css"/>
+<file href="courseimages/courselab.js"/>
+<file href="courseimages/cursor_arrow.png"/>
+<file href="courseimages/cursor_click.png"/>
+<file href="courseimages/dummy.swf"/>
+<file href="courseimages/failure1.mp3"/>
+<file href="courseimages/failure1.ogg"/>
+<file href="courseimages/failure1.swf"/>
+<file href="courseimages/failure2.mp3"/>
+<file href="courseimages/failure2.ogg"/>
+<file href="courseimages/failure2.swf"/>
+<file href="courseimages/failure3.mp3"/>
+<file href="courseimages/failure3.ogg"/>
+<file href="courseimages/failure3.swf"/>
+<file href="courseimages/failure4.mp3"/>
+<file href="courseimages/failure4.ogg"/>
+<file href="courseimages/failure4.swf"/>
+<file href="courseimages/jquery-ui.js"/>
+<file href="courseimages/jquery.addons.js"/>
+<file href="courseimages/jquery.js"/>
+<file href="courseimages/legacy.js"/>
+<file href="courseimages/lms.js"/>
+<file href="courseimages/over1.mp3"/>
+<file href="courseimages/over1.ogg"/>
+<file href="courseimages/over1.swf"/>
+<file href="courseimages/over2.mp3"/>
+<file href="courseimages/over2.ogg"/>
+<file href="courseimages/over2.swf"/>
+<file href="courseimages/over3.mp3"/>
+<file href="courseimages/over3.ogg"/>
+<file href="courseimages/over3.swf"/>
+<file href="courseimages/over4.mp3"/>
+<file href="courseimages/over4.ogg"/>
+<file href="courseimages/over4.swf"/>
+<file href="courseimages/progress.gif"/>
+<file href="courseimages/success1.mp3"/>
+<file href="courseimages/success1.ogg"/>
+<file href="courseimages/success1.swf"/>
+<file href="courseimages/success2.mp3"/>
+<file href="courseimages/success2.ogg"/>
+<file href="courseimages/success2.swf"/>
+<file href="courseimages/success3.mp3"/>
+<file href="courseimages/success3.ogg"/>
+<file href="courseimages/success3.swf"/>
+<file href="courseimages/success4.mp3"/>
+<file href="courseimages/success4.ogg"/>
+<file href="courseimages/success4.swf"/>
+<file href="courseimages/webfonts/Roboto/roboto_black/Roboto-Black-webfont.eot"/>
+<file href="courseimages/webfonts/Roboto/roboto_black/Roboto-Black-webfont.svg"/>
+<file href="courseimages/webfonts/Roboto/roboto_black/Roboto-Black-webfont.ttf"/>
+<file href="courseimages/webfonts/Roboto/roboto_black/Roboto-Black-webfont.woff"/>
+<file href="courseimages/webfonts/Roboto/roboto_medium/Roboto-Medium-webfont.eot"/>
+<file href="courseimages/webfonts/Roboto/roboto_medium/Roboto-Medium-webfont.svg"/>
+<file href="courseimages/webfonts/Roboto/roboto_medium/Roboto-Medium-webfont.ttf"/>
+<file href="courseimages/webfonts/Roboto/roboto_medium/Roboto-Medium-webfont.woff"/>
+<file href="courseimages/webfonts/Roboto/roboto_regular/Roboto-Regular-webfont.eot"/>
+<file href="courseimages/webfonts/Roboto/roboto_regular/Roboto-Regular-webfont.svg"/>
+<file href="courseimages/webfonts/Roboto/roboto_regular/Roboto-Regular-webfont.ttf"/>
+<file href="courseimages/webfonts/Roboto/roboto_regular/Roboto-Regular-webfont.woff"/>
+<file href="courseimages/webfonts/Roboto_Font_Family_Apache_License.txt"/>
+</resource>
+<resource identifier="RES1" adlcp:scormtype="sco" href="1/start.html" type="webcontent">
+<file href="1/module.js"/>
+<file href="1/start.html"/>
+<file href="1/splash.xml"/>
+<file href="1/runtime.xml"/>
+<file href="1/images/1063.jpg"/>
+<file href="1/images/clip20170701.bmp"/>
+<file href="1/images/clip20170701_1.bmp"/>
+<file href="1/images/clip20170701_2.bmp"/>
+<file href="1/images/course.css"/>
+<file href="1/images/nav_0002_navi_win/navi_tab_contents_sprite.png"/>
+<file href="1/images/relief_0001_00.jpg"/>
+<file href="1/images/relief_0001_02.gif"/>
+<file href="1/images/relief_0001_04_0.gif"/>
+<file href="1/images/relief_0001_04_1.gif"/>
+<file href="1/images/relief_0001_04_2.gif"/>
+<file href="1/images/relief_0001_05_0.gif"/>
+<file href="1/images/relief_0001_05_1.gif"/>
+<file href="1/images/relief_0001_05_2.gif"/>
+<dependency identifierref="RESCOURSEIMAGES"/>
+</resource>
+</resources>
+</manifest>

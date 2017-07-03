@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="author" content="CourseLab 3.0">
+<meta name="description" content="CourseLab 3 e-learning content editor">
+<meta name="viewport" content="width=750, height=530, initial-scale=0.9, user-scalable=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="HandheldFriendly" content="true" />
+<title></title>
+<style type="text/css"></style>
+<link href="../courseimages/cl-fonts.css" rel="stylesheet" type="text/css"/>
+<link href="../courseimages/courselab.css" rel="stylesheet" type="text/css"/>
+<link href="images/course.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery-ui.js"></script>
+<script type="text/javascript" language="javascript" src="../courseimages/jquery.addons.js"></script>
+<script type="text/javascript" src="../courseimages/cl.js"></script>
+<script type="text/javascript" src="../courseimages/courselab.js"></script>
+<script type="text/javascript" src="../courseimages/lms.js"></script>
+<script type="text/javascript" src="module.js"></script>
+</head>
+<body style="width: 100%; height: 100%; margin: 0;" onload="CL.Init();" onunload="CL.Shutdown()" oncontextmenu="return false">
+<div class="cl-container" style="width: 750px; height: 530px; margin: -265px 0 0 -375px;">
+<div id="boardFrame" class="cl-board-frame"></div>
+<div class="cl-error-frame">
+<div class="cl-error-browser">
+<span class="cl-error-browser-string">Вы используете браузер</span> <span class="cl-error-browser-type"></span><br/>
+<span class="cl-error-browser-text">Содержимое курса не может быть проиграно. Пожалуйста используйте более современный браузер.</span>
+</div>
+<div class="cl-error-scorm-aborted">
+SCORM-сессия отсутствует. <br/>
+Сообщение СДО: ошибка <span class="cl-error-scorm-number"></span>. <span class="cl-error-scorm-reason"></span>. <br/>
+Пожалуйста закройте модуль и запустите его заново. 
+</div>
+<div class="cl-error-aicc-aborted">
+AICC-сессия не инициализирована. <br/>
+Сообщение СДО: ошибка <span class="cl-error-aicc-number"></span>.<br/>
+Пожалуйста закройте модуль и запустите его заново. 
+</div>
+</div>
+<div id="boardMask" class="cl-modal-mask"><img src="../courseimages/progress.gif"/></div>
+</div>
+<div id="CL_POINTER" class="cl-pointer"><img src="../courseimages/cursor_arrow.png" data-src="../courseimages/cursor_arrow.png" class="cl-pointer-idle"/><img src="../courseimages/cursor_click.png" data-src="../courseimages/cursor_click.png" class="cl-pointer-click"/></div>
+<div class="cl-audio-container"><audio id="CLAudio1"></audio><audio id="CLAudio2"></audio><audio id="CLAudio3"></audio><audio id="CLAudio4"></audio><audio id="CLAudio5"></audio></div>
+<div class="cl-lang-strings" style="display: none">
+<div class="cl-lang-disabled-in-preview">Эта возможность отключена в режиме предпросмотра во встроенном браузере</div>
+<div class="cl-lang-external-url-disabled">Открытие окон и внешних файлов заблокировано в режиме предпросмотра во встроенном браузере.</div>
+</div>
+</body>
+</html>
